@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+label{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+  color: rgba(187, 198, 242, 1);
+  margin-bottom: 4px;
+}
+
+.error-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+  color: rgba(249, 23, 23, 1);
+  margin-top: 4px;
+}
